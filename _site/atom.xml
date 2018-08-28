@@ -4,13 +4,24 @@
  <title>Sejin blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-28T19:27:46+09:00</updated>
+ <updated>2018-08-28T20:51:04+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Mark Otto</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>미세미세 쇼핑몰 프로젝트</title>
+   <link href="http://localhost:4000/2018/08/28/%EB%AF%B8%EC%84%B8%EB%AF%B8%EC%84%B8-%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/"/>
+   <updated>2018-08-28T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2018/08/28/미세미세 쇼핑몰 프로젝트</id>
+   <content type="html">&lt;h3&gt;2018.02.23 ~ 2018.03.18&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/_img/portfolio/misemise1.jpg&quot; alt=&quot;Image Alt 텍스트&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>start blog~</title>

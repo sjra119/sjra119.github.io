@@ -543,3 +543,9 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/*이미지 넣는 방법*/
+.image-caption {
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
