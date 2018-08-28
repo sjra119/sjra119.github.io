@@ -10,8 +10,8 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
-    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="/">Home</a>
-    <a class="sidebar-nav-item{% if page.title == "Portfolio" %} active{% endif %}" href="/">Home</a>
+    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="/">Blog</a>
+    <a class="sidebar-nav-item{% if page.title == "Portfolio" %} active{% endif %}" href="/">Portfolio</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -34,8 +34,7 @@
 
   <div class="sidebar-item">
     <p>
-      github: <a href="https://github.com/sjra119" target="_blank">https://github.com/sjra119</a>.
-      Made by <a href="https://twitter.com/nas_9111" target="_blank">@nas_9111</a>.
+      Made by <a href="https://twitter.com/nas_9111" target="_blank">@nas_9111</a>.<br/>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
