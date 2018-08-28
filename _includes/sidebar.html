@@ -10,6 +10,8 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
+    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="/">Home</a>
+    <a class="sidebar-nav-item{% if page.title == "Portfolio" %} active{% endif %}" href="/">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -26,12 +28,14 @@
     {% endfor %}
 
     <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>-->
-    <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>-->
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <!--<span class="sidebar-nav-item">Currently v{{ site.version }}</span>-->
   </nav>
 
   <div class="sidebar-item">
     <p>
+      github: <a href="https://github.com/sjra119" target="_blank">https://github.com/sjra119</a>.
+      Made by <a href="https://twitter.com/nas_9111" target="_blank">@nas_9111</a>.
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
