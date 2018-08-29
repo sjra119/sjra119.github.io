@@ -5,7 +5,7 @@ title: Learn the Command Line
 
 
 >사이트: <https://www.codecademy.com/learn/learn-the-command-line>  
- <https://www.codecademy.com/articles/command-line-commands>
+ > <https://www.codecademy.com/articles/command-line-commands>
 
 <br/>
 
@@ -42,7 +42,7 @@ title: Learn the Command Line
     ```
     $ cat oceans.txt > continents.txt
     ```
-     ##### The common redirection commands are:
+     #### The common redirection commands are:
     * `>`: takes the standard output of the command on the left, and redirects it to the file on the right. Here the standard output of cat oceans.txt is redirected to continents.txt.  
    Note that `>` overwrites all original content in continents.txt.
     * `>>`: takes the standard output of the command on the left and appends (adds) it to the file on the right.  
@@ -57,7 +57,7 @@ title: Learn the Command Line
       ```
       cf.) in turn, the `wc` command outputs the number of lines, words, and characters in volcanoes.txt, respectively.
         
-  ##### A number of other commands are powerful when combined with redirection commands:
+  #### A number of other commands are powerful when combined with redirection commands:
   
   * `sort`: lines of text alphabetically. 
   
