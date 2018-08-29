@@ -4,7 +4,7 @@
  <title>Sejin blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-08-28T20:51:04+09:00</updated>
+ <updated>2018-08-30T00:56:19+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Mark Otto</name>
@@ -14,12 +14,148 @@
  
  <entry>
    <title>미세미세 쇼핑몰 프로젝트</title>
-   <link href="http://localhost:4000/2018/08/28/%EB%AF%B8%EC%84%B8%EB%AF%B8%EC%84%B8-%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/"/>
-   <updated>2018-08-28T00:00:00+09:00</updated>
-   <id>http://localhost:4000/2018/08/28/미세미세 쇼핑몰 프로젝트</id>
-   <content type="html">&lt;h3&gt;2018.02.23 ~ 2018.03.18&lt;/h3&gt;
+   <link href="http://localhost:4000/2018/08/29/%EB%AF%B8%EC%84%B8%EB%AF%B8%EC%84%B8-%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/"/>
+   <updated>2018-08-29T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2018/08/29/미세미세 쇼핑몰 프로젝트</id>
+   <content type="html">&lt;hr&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/_img/portfolio/misemise1.jpg&quot; alt=&quot;Image Alt 텍스트&quot;&gt;&lt;/p&gt;
+&lt;p&gt;layout: post&lt;/p&gt;
+
+&lt;h2&gt;title: 미세미세 쇼핑몰 프로젝트&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Learn the command line</title>
+   <link href="http://localhost:4000/2018/08/29/Learn-the-Command-Line/"/>
+   <updated>2018-08-29T00:00:00+09:00</updated>
+   <id>http://localhost:4000/2018/08/29/Learn the Command Line</id>
+   <content type="html">&lt;hr&gt;
+
+&lt;p&gt;layout: post&lt;/p&gt;
+
+&lt;h2&gt;title: Learn the Command Line&lt;/h2&gt;
+
+&lt;p&gt;사이트: &lt;a href=&quot;https://www.codecademy.com/learn/learn-the-command-line&quot;&gt;https://www.codecademy.com/learn/learn-the-command-line&lt;/a&gt;&lt;br&gt;
+       &lt;a href=&quot;https://www.codecademy.com/articles/command-line-commands&quot;&gt;https://www.codecademy.com/articles/command-line-commands&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;1. Navigating the File System&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; outputs the name of the current working directory.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; lists all files and directories in the working directory.&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ls -a : lists all contents, including hidden files and directories&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;ls -l : lists all contents of a directory in long format&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;ls -t : order files and directories by the time they were last modified.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Multiple options can be used together, like ls -alt&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd&lt;/code&gt; switches you into the directory you specify.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir&lt;/code&gt; creates a new directory in the working directory.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;touch&lt;/code&gt; creates a new file inside the working directory.&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4&gt;2. Viewing and Changing the File System&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cp&lt;/code&gt; copies files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mv&lt;/code&gt; moves and renames files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm&lt;/code&gt; removes files
+
+&lt;ul&gt;
+&lt;li&gt;rm -r: removes directories&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;#### 3. Redirecting Input and Output 
+  * &lt;code&gt;echo&lt;/code&gt;
+    &lt;code&gt;
+    $ echo &amp;quot;Hello&amp;quot; &amp;gt; hello.txt
+&lt;/code&gt;
+    The &lt;code&gt;&amp;gt;&lt;/code&gt; command redirects the standard output to a file. Here, &amp;quot;Hello&amp;quot; is entered as the standard input. The standard output &amp;quot;Hello&amp;quot; is redirected by &lt;code&gt;&amp;gt;&lt;/code&gt; to the file hello.txt.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;cat&lt;/code&gt; command outputs the contents of a file to the terminal. When you type cat hello.txt, the contents of hello.txt are displayed.
+&lt;code&gt;
+$ cat oceans.txt &amp;gt; continents.txt
+&lt;/code&gt;
+ ##### The common redirection commands are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&lt;/code&gt; takes the standard output of the command on the left, and redirects it to the file on the right. Here the standard output of cat oceans.txt is redirected to continents.txt.&lt;br&gt;
+Note that &lt;code&gt;&amp;gt;&lt;/code&gt; overwrites all original content in continents.txt.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt; takes the standard output of the command on the left and appends (adds) it to the file on the right.&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;    $  cat glaciers.txt &amp;gt;&amp;gt; rivers.txt
+    ```
+* `&amp;lt;` redirects standard input to a command.  
+* `|` is a &amp;quot;pipe&amp;quot;. The `|` takes the standard output of the command on the left, and pipes it as standard input to the command on the right.  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;$ cat volcanoes.txt | wc
+  ``&lt;code&gt;
+  cf.) in turn, the&lt;/code&gt;wc` command outputs the number of lines, words, and characters in volcanoes.txt, respectively.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##### A number of other commands are powerful when combined with redirection commands:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;sort&lt;/code&gt;: lines of text alphabetically. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;uniq&lt;/code&gt; filters duplicate, adjacent lines of text.  &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;grep&lt;/code&gt;:searches for a text pattern and outputs it.&lt;br&gt;
+&lt;code&gt;
+$ grep Mount mountains.txt
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;grep -i&lt;/code&gt;: enables the command to be case insensitive. Here, grep searches for capital or lowercase strings that match text in file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;grep -R&lt;/code&gt;: searches all files in a directory and outputs filenames and lines containing matched results.
+&lt;code&gt;
+grep -R Arctic /home/ccuser/workspace/geography
+&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;grep -Rl&lt;/code&gt;: searches all files in a directory and outputs only filenames with matched results.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;sed&lt;/code&gt;: searches for a text pattern, modifies it, and outputs it.&lt;br&gt;
+  &lt;code&gt;
+$ sed &amp;#39;s/snow/rain/&amp;#39; forests.txt
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt;: stands for &amp;quot;substitution&amp;quot;. it is always used when using sed for substitution.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;snow&lt;/code&gt;: the search string, the text to find.&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rain&lt;/code&gt;: the replacement string, the text to add in place.&lt;br&gt;
+&lt;code&gt;
+$ sed &amp;#39;s/snow/rain/g&amp;#39; forests.txt
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;g&lt;/code&gt;: expression, meaning &amp;quot;global&amp;quot;. globally. All instances of &amp;quot;snow&amp;quot; on a line will be turned to &amp;quot;rain&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br/&gt;
+ &lt;br/&gt;
+ &lt;br/&gt;&lt;/p&gt;
+
+&lt;h2&gt;OS/리눅스와 Windows의 Command Line 차이  &lt;/h2&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;OS/리눅스 | Windows | 설명 | 예
+ ---:|---:|---:|---:
+  pwd|cd| |
+ ls|dir| | 
+ cd|cd| |
+ touch|echo $null &amp;gt; filename| |
+ cp|copy| |
+ mv|move| |
+ rm|del |
+ rm -r|rmdir /S| |&lt;/p&gt;
 </content>
  </entry>
  
