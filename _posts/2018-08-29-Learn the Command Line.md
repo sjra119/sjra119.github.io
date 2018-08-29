@@ -4,10 +4,12 @@ title: Learn the Command Line
 ---
 
 
-사이트: <https://www.codecademy.com/learn/learn-the-command-line>  
-       <https://www.codecademy.com/articles/command-line-commands>
+>사이트: <https://www.codecademy.com/learn/learn-the-command-line>  
+ <https://www.codecademy.com/articles/command-line-commands>
 
-#### 1. Navigating the File System
+<br/>
+
+### 1. Navigating the File System
 
 * `pwd`: outputs the name of the current working directory.  
 * `ls`: lists all files and directories in the working directory.  
@@ -21,7 +23,7 @@ title: Learn the Command Line
 
 <br/>
 
-#### 2. Viewing and Changing the File System  
+### 2. Viewing and Changing the File System  
 * `cp`: copies files
 * `mv`: moves and renames files
 * `rm`: removes files
@@ -29,7 +31,7 @@ title: Learn the Command Line
 
  <br/>
  
-#### 3. Redirecting Input and Output 
+### 3. Redirecting Input and Output 
   * `echo`
     ```
     $ echo "Hello" > hello.txt
@@ -55,7 +57,7 @@ title: Learn the Command Line
       ```
       cf.) in turn, the `wc` command outputs the number of lines, words, and characters in volcanoes.txt, respectively.
         
-##### A number of other commands are powerful when combined with redirection commands:
+  ##### A number of other commands are powerful when combined with redirection commands:
   
   * `sort`: lines of text alphabetically. 
   
@@ -90,7 +92,7 @@ title: Learn the Command Line
  <br/>
 
 
-# OS/리눅스와 Windows의 Command Line 차이  
+## OS/리눅스와 Windows의 Command Line 차이  
 
 ---
 
