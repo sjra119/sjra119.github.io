@@ -1,7 +1,8 @@
-------
+---
 layout: post
 title: Learn the Command Line
-------
+---
+
 
 사이트: <https://www.codecademy.com/learn/learn-the-command-line>  
        <https://www.codecademy.com/articles/command-line-commands>
