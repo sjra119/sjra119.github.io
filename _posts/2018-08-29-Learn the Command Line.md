@@ -8,53 +8,53 @@ title: Learn the Command Line
 
 #### 1. Navigating the File System
 
-* `pwd` outputs the name of the current working directory.  
-* `ls` lists all files and directories in the working directory.  
-  * ls -a : lists all contents, including hidden files and directories  
-  * ls -l : lists all contents of a directory in long format  
-  * ls -t : order files and directories by the time they were last modified.  
-  * Multiple options can be used together, like ls -alt   
-* `cd` switches you into the directory you specify.  
-* `mkdir` creates a new directory in the working directory.  
-* `touch` creates a new file inside the working directory.   
+* `pwd`: outputs the name of the current working directory.  
+* `ls`: lists all files and directories in the working directory.  
+  * 'ls -a' : lists all contents, including hidden files and directories  
+  * 'ls -l' : lists all contents of a directory in long format  
+  * 'ls -t' : order files and directories by the time they were last modified.  
+  * Multiple options can be used together, like 'ls -alt'   
+* `cd`: switches you into the directory you specify.  
+* `mkdir`: creates a new directory in the working directory.  
+* `touch`: creates a new file inside the working directory.   
 
 <br/>
 
 #### 2. Viewing and Changing the File System  
-* `cp` copies files
-* `mv` moves and renames files
-* `rm` removes files
-  * rm -r: removes directories
+* `cp`: copies files
+* `mv`: moves and renames files
+* `rm`: removes files
+  * `rm -r`: removes directories
 
  <br/>
  
- #### 3. Redirecting Input and Output 
+#### 3. Redirecting Input and Output 
   * `echo`
     ```
     $ echo "Hello" > hello.txt
      ```
     The `>` command redirects the standard output to a file. Here, "Hello" is entered as the standard input. The standard output "Hello" is redirected by `>` to the file hello.txt.
   
-  * `cat` command outputs the contents of a file to the terminal. When you type cat hello.txt, the contents of hello.txt are displayed.
+  * `cat`: command outputs the contents of a file to the terminal. When you type cat hello.txt, the contents of hello.txt are displayed.
     ```
     $ cat oceans.txt > continents.txt
     ```
      ##### The common redirection commands are:
-    * `>` takes the standard output of the command on the left, and redirects it to the file on the right. Here the standard output of cat oceans.txt is redirected to continents.txt.  
+    * `>`: takes the standard output of the command on the left, and redirects it to the file on the right. Here the standard output of cat oceans.txt is redirected to continents.txt.  
    Note that `>` overwrites all original content in continents.txt.
-    * `>>` takes the standard output of the command on the left and appends (adds) it to the file on the right.  
+    * `>>`: takes the standard output of the command on the left and appends (adds) it to the file on the right.  
 
        ```
         $  cat glaciers.txt >> rivers.txt
         ```
-    * `<` redirects standard input to a command.  
-    * `|` is a "pipe". The `|` takes the standard output of the command on the left, and pipes it as standard input to the command on the right.  
+    * `<`: redirects standard input to a command.  
+    * `|`: is a "pipe". The `|` takes the standard output of the command on the left, and pipes it as standard input to the command on the right.  
       ```
       $ cat volcanoes.txt | wc
       ```
       cf.) in turn, the `wc` command outputs the number of lines, words, and characters in volcanoes.txt, respectively.
         
-  ##### A number of other commands are powerful when combined with redirection commands:
+##### A number of other commands are powerful when combined with redirection commands:
   
   * `sort`: lines of text alphabetically. 
   
@@ -89,7 +89,8 @@ title: Learn the Command Line
  <br/>
 
 
-OS/리눅스와 Windows의 Command Line 차이  
+# OS/리눅스와 Windows의 Command Line 차이  
+
 ---
 
 <br/>
